@@ -20,25 +20,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
-    <table class="table table-sm">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Country Name</th>
-            <th scope="col">Created at</th>
-            <th scope="col">Updated at</th>
-          </tr>
-        </thead>
-        <tbody>
-          @foreach($countries as $country)
-            <tr>
-              <th scope="row">{{$country->id}}</th>
-              <td>{{$country->name}}</td>
-              <td>{{$country->created_at}}</td>
-              <td>{{$country->updated_at}}</td>
-            </tr>
-          @endforeach
-        </tbody>
-      </table>
+    <h1>hello working</h1>
   </body>
 </html>

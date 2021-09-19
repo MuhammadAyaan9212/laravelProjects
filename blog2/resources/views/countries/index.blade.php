@@ -21,8 +21,27 @@
 
   </head>
   <body>
-    @foreach($countries as $country)
-      <h3>{{$country->name}}</h3>
-    @endforeach
+    <h1>List of countries</h1>
+    <a class="btn btn-primary" href="/countries/create">Create</a>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Country Name</th>
+          <th scope="col">Created at</th>
+          <th scope="col">Updated at</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach($countries as $country)
+          <tr>
+            <th scope="row">{{$country->id}}</th>
+            <td>{{$country->name}}</td>
+            <td>{{$country->created_at}}</td>
+            <td>{{$country->updated_at}}</td>
+          </tr>
+        @endforeach
+      </tbody>
+    </table>
   </body>
 </html>
