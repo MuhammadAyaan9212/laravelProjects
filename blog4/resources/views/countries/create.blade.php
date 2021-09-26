@@ -20,6 +20,17 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
-    <h1>hello working</h1>
+    <div class="container">
+      <h1>Create Country</h1>
+      <form class="" action="/countries/store" method="post">
+        @csrf
+        <div class="form-group">
+          <label for="">Country Name</label>
+          <input type="text" name="name" value="" class="form-control">
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Create</button>
+      </form>
+
+    </div>
   </body>
 </html>
