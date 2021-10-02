@@ -21,25 +21,31 @@
   </head>
   <body>
     <h1>List of countries</h1>
-    <table class="table table-sm table-dark">
-        <thead>
+    <a class="btn btn-primary" href="/countries/create">Create</a>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Country Name</th>
+          <th scope="col">Created at</th>
+          <th scope="col">Updated at</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach($countries as $country)
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Country Name</th>
-            <th scope="col">Created at</th>
-            <th scope="col">Updated at</th>
+            <th scope="row">{{$country->id}}</th>
+            <td>{{$country->name}}</td>
+            <td>{{$country->created_at}}</td>
+            <td>{{$country->updated_at}}</td>
+            <td>
+              <a href="/countries/show/{{$country->id}}" class="btn btn-info">Show</a>
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          @foreach($countries as $country)
-            <tr>
-              <th scope="row">{{$country->id}}</th>
-              <td>{{$country->name}}</td>
-              <td>{{$country->created_at}}</td>
-              <td>{{$country->updated_at}}</td>
-            </tr>
-          @endforeach
-        </tbody>
-      </table>
+        @endforeach
+      </tbody>
+    </table>
+
   </body>
 </html>

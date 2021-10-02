@@ -17,4 +17,17 @@ class CountriesController extends Controller
     {
       return view('countries.create');
     }
+
+    public function store(Request $request)
+    {
+      $country = new Country();
+      $country->name = $request->CountryName;
+      $country->save();
+      return redirect('/countries');
+    }
+
+    public function show($id)
+    {
+      return $id;
+    }
 }

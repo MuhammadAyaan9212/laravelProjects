@@ -25,4 +25,9 @@ class CountriesController extends Controller
       $country->save();
       return redirect('/countries');
     }
+
+    public function show($id)
+    {
+      return $id;
+    }
 }

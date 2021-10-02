@@ -29,6 +29,7 @@
           <th scope="col">Country Name</th>
           <th scope="col">Created at</th>
           <th scope="col">Updated at</th>
+          <th scope="col">Actions</th>
         </tr>
       </thead>
       <tbody>
@@ -38,6 +39,9 @@
             <td>{{$country->name}}</td>
             <td>{{$country->created_at}}</td>
             <td>{{$country->updated_at}}</td>
+            <td>
+              <a href="/countries/show/{{$country->id}}" class="btn btn-info">Show</a>
+            </td>
           </tr>
         @endforeach
       </tbody>

@@ -28,3 +28,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/countries', 'CountriesController@index');
 Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
+Route::get('/countries/show/{id}', 'CountriesController@show');

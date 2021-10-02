@@ -30,7 +30,6 @@
         </div>
         <button type="submit" name="button" class="btn btn-primary">Create</button>
       </form>
-
     </div>
   </body>
 </html>

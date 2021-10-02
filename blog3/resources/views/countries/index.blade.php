@@ -20,13 +20,16 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
-    <table class="table table-borderless">
+    <h1>List of countries</h1>
+    <a class="btn btn-primary" href="/countries/create">Create</a>
+    <table class="table table-dark">
       <thead>
         <tr>
           <th scope="col">#</th>
           <th scope="col">Country Name</th>
           <th scope="col">Created at</th>
           <th scope="col">Updated at</th>
+          <th scope="col">Action</th>
         </tr>
       </thead>
       <tbody>
@@ -36,6 +39,9 @@
             <td>{{$country->name}}</td>
             <td>{{$country->created_at}}</td>
             <td>{{$country->updated_at}}</td>
+            <td>
+              <a href="/countries/show/{{$country->id}}" class="btn btn-info">Show</a>
+            </td>
           </tr>
         @endforeach
       </tbody>
