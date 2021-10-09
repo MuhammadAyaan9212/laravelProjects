@@ -28,6 +28,7 @@ class CountriesController extends Controller
 
     public function show($id)
     {
-      return $id;
+      $countryData = Country::findOrFail($id);
+      return view('countries.show', compact('countryData'));
     }
 }
