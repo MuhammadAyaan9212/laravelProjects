@@ -32,3 +32,7 @@ Route::get('/countries/show/{id}', 'CountriesController@show');
 
 //MrpmAutos Routes
 Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');
+Route::get('/mrpmautos/about', 'MrpmautosController@about')->name('mrpmautos.about');
+Route::get('/mrpmautos/contact', 'MrpmautosController@contact')->name('mrpmautos.contact');
+Route::get('/mrpmautos/services', 'MrpmautosController@services')->name('mrpmautos.services');
+Route::get('/mrpmautos/team', 'MrpmautosController@team')->name('mrpmautos.team');
