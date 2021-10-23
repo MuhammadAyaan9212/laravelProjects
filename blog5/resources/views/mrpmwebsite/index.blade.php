@@ -63,6 +63,35 @@
         </div>
       </div>
     </div>
+
+    <div class="container my-3 my-sm-5">
+      <div class="row bg-light mb-3 mb-sm-5 g-0 p-4">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img src="{{ asset('images/Whatwedo.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0" alt="Whatwedo">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>What we do</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img src="{{ asset('images/Whoweare.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0" alt="Whoweare">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>Who we are</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="py-3">
 
     </div>
