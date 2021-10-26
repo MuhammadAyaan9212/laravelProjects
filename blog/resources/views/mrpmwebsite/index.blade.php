@@ -73,7 +73,7 @@
             </div>
             <div class="col-12 col-sm-6">
               <h2>What we do</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <p>We are mechanics we do stuff like replace tires, fix engines, normal checkup of your vehicle </p>
               <a href="#" class="btn btn-primary">Read more</a>
             </div>
           </div>
@@ -85,7 +85,69 @@
             </div>
             <div class="col-12 col-sm-6">
               <h2>Who we are</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <p>We are mechanical engineers</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-23-2021">10-23-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="12-14-2021">12-14-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published <time datetime="01-02-2021">01-02-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published <time datetime="11-25-2021">11-25-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News Item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
               <a href="#" class="btn btn-primary">Read more</a>
             </div>
           </div>

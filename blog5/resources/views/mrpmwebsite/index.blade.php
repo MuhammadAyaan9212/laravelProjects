@@ -73,7 +73,7 @@
             </div>
             <div class="col-12 col-sm-6">
               <h2>What we do</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <p>We fix engines, replace tires normal checkup, and online checkup</p>
               <a href="#" class="btn btn-primary">Read more</a>
             </div>
           </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-12 col-sm-6">
               <h2>Who we are</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis velit quis sapien sollicitudin ultrices. Ut metus tortor, aliquet non rutrum ac, dapibus vehicula augue. Etiam congue erat sem, vitae gravida nunc pretium vitae. Fusce sed ex tellus.</p>
+              <p>We are mechanical engineers</p>
               <a href="#" class="btn btn-primary">Read more</a>
             </div>
           </div>
