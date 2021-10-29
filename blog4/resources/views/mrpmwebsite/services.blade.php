@@ -48,11 +48,52 @@
         </div>
       </nav>
     </header>
-    <div class="py-3">
 
-    </div>
-    <div class="py-3">
-      <h1>Services</h1>
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center mb-sm-5 display-1">Our services</h1>
+      <div class="row mb-4 align-items-center flex-md-row-reverse">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-1.jpg') }}" class="img-fluid" alt="Service-1">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #1</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-2.jpg') }}" class="img-fluid" alt="service-2">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #2</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center flex-md-row-reverse">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-3.jpg') }}" class="img-fluid" alt="service-3">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #3</h2>
+          <p>Efi diognosis checkup</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-4.jpg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #4</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
