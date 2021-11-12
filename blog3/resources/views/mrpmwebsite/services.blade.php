@@ -32,10 +32,10 @@
                 <a href="{{ route('mrpmautos.index') }}" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('mrpmautos.services') }}" class="nav-link">Services</a>
+                <a href="{{ route('mrpmautos.services') }}" class="nav-link active">Services</a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('mrpmautos.about') }}" class="nav-link active">About</a>
+                <a href="{{ route('mrpmautos.about') }}" class="nav-link">About</a>
               </li>
               <li class="nav-item">
                 <a href="{{ route('mrpmautos.team') }}" class="nav-link">Team</a>
@@ -49,74 +49,49 @@
       </nav>
     </header>
 
-    <div class="container my-3 my-sm-5 py-5">
-      <h1 class="text-center mb-sm-4 display-1">About</h1>
-      <div class="mb-sm-4">
-        <h2 class="text-center mb-sm-4">Our story</h2>
-        <p>Any Content</p>
-      </div>
-      <div class="mb-sm-4">
-        <h2 class="text-center mb-sm-4">Our office</h2>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <figure class="figure">
-              <img src="{{ asset('images/garage-1.jpg') }}" class="figure-img img-fluid" alt="garage-1">
-              <figcaption class="figure-caption small">
-                <p class="mb-0 fst-italic">Photo by: Muhammad Ayaan</p>
-                <p class="mb-0">I captured the picture in the MRPM Garage</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-12 col-lg-6">
-            <figure class="figure">
-              <img src="{{ asset('images/office-1.jpg') }}" class="figure-img img-fluid" alt="office-1">
-              <figcaption class="figure-caption small">
-                <p class="mb-0 fst-italic">Photo by: Muhammad Ayaan</p>
-                <p class="mb-0">I captured the picture in one of the Mrpm office</p>
-              </figcaption>
-            </figure>
-          </div>
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center mb-sm-5 display-1">Our services</h1>
+      <div class="row mb-4 align-items-center flex-md-row-reverse">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-1.jpg') }}" class="img-fluid" alt="Service-1">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #1</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>
-      <div class="mb-sm-4">
-        <h2 class="text-center mb-sm-4">Our clients</h2>
-        <div class="row">
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Toyota-logo.jpg') }}" class="img-fluid rounded-circle" alt="Toyota-logo">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Suzuki-logo.png') }}" class="img-fluid" alt="Suzuki-logo">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Lincoln-logo.jpg') }}" class="img-fluid" alt="Lincoln-logo">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Honda-logo.png') }}" alt="Honda-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Ferrari-logo.png') }}" alt="Ferrari-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Lamborghini-logo.png') }}" alt="Lamborghini-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Bugatti-logo.png') }}" alt="Bugatti-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Mercedes-logo.png') }}" alt="Mercedes-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/McLaren-logo.png') }}" alt="McLaren-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Porsche-logo.png') }}" alt="Porsche-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/BMW-logo.jpg') }}" alt="BMW-logo" class="img-fluid">
-          </div>
-          <div class="col-6 col-sm-4 col-lg-2 mb-3">
-            <img src="{{ asset('images/Tesla-logo.png') }}" alt="Tesla-logo" class="img-fluid">
-          </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-2.jpg') }}" class="img-fluid" alt="service-2">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #2</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center flex-md-row-reverse">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-3.jpg') }}" class="img-fluid" alt="service-3">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #3</h2>
+          <p>Efi diognosis checkup</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-4.jpg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #4</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>
     </div>

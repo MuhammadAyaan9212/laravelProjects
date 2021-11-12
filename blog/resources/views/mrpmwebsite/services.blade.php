@@ -56,8 +56,8 @@
           <img src="{{ asset('images/service-1.jpg') }}" class="img-fluid" alt="Service-1">
         </div>
         <div class="col-12 col-md-6">
-          <h2>Service #1</h2>
-          <p>Any content</p>
+          <h2>Tire service</h2>
+          <p>Tire services we do: Tire tread depth, tire air pressure, tire balance, wheel alignment, tire exchange and fill up air in your tire.</p>
           <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>
@@ -67,8 +67,8 @@
           <img src="{{ asset('images/service-2.jpg') }}" class="img-fluid" alt="service-2">
         </div>
         <div class="col-12 col-md-6">
-          <h2>Service #2</h2>
-          <p>Any content</p>
+          <h2>Engine Service</h2>
+          <p>Engine Repair, Replacement, and Diagnostic Services. Regular Engine Maintenance. Spark Plug Replacement. Spark Plug Wire Inspection.</p>
           <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>
@@ -78,8 +78,8 @@
           <img src="{{ asset('images/service-3.jpg') }}" class="img-fluid" alt="service-3">
         </div>
         <div class="col-12 col-md-6">
-          <h2>Service #3</h2>
-          <p>Efi diognosis checkup</p>
+          <h2>Efi diognosis checkup</h2>
+          <p></p>
           <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>

@@ -17,6 +17,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style media="screen">
+      body {
+        padding-top: 55px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -48,11 +53,52 @@
         </div>
       </nav>
     </header>
-    <div class="py-3">
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center display-1 mb-sm-4">Meet the team</h1>
+      <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac mollis lacus, vel auctor risus. Etiam orci diam, tempor id nisl ac, aliquet cursus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sollicitudin semper aliquam. Phasellus ac tellus in nisl laoreet cursus eu quis lorem.</p>
+      <div class="row">
 
-    </div>
-    <div class="py-3">
-      <h1>Team</h1>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-1.png') }}" class="img-fluid mb-2" alt="avatar-1">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Stephanie Lopez</h5>
+          <p>Cheif Executive Officer</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-2.png') }}" class="img-fluid mb-2" alt="avatar-1">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Alisha Jackson</h5>
+          <p>Cheif Executive Officer</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-3.png') }}" class="img-fluid mb-2" alt="avatar-1">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Oliver Queen</h5>
+          <p>Cheif Executive Officer</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-4.png') }}" class="img-fluid mb-2" alt="avatar-1">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Barry Allen</h5>
+          <p>Cheif Executive Officer</p>
+        </div>
+
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
