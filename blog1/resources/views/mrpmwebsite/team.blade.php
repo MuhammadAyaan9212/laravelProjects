@@ -55,7 +55,7 @@
     </header>
     <div class="container my-3 my-sm-5">
       <h1 class="text-center display-1 mb-sm-4">Meet the team</h1>
-      <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac mollis lacus, vel auctor risus. Etiam orci diam, tempor id nisl ac, aliquet cursus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sollicitudin semper aliquam. Phasellus ac tellus in nisl laoreet cursus eu quis lorem.</p>
+      <p class="mb-5 lead">Our team has one of the best helpouts and they help make improvements to our MRPM company. Such as make developements to our garage, offices, and our websites.</p>
       <div class="row">
 
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
@@ -95,6 +95,16 @@
             <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
           </ul>
           <h5>Barry Allen</h5>
+          <p>Cheif Executive Officer</p>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-5.png') }}" class="img-fluid mb-2" alt="avatar-5">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Tommy Barnes</h5>
           <p>Cheif Executive Officer</p>
         </div>
 

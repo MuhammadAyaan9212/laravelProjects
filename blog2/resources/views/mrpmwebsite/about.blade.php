@@ -53,7 +53,7 @@
       <h1 class="text-center mb-sm-4 display-1">About</h1>
       <div class="mb-sm-4">
         <h2 class="text-center mb-sm-4">Our story</h2>
-        <p>Any Content</p>
+        <p>When we started our garage it was small and barely people used to come then we decided to give an upgrade to our garage we made many changes and now we even have our own company. We came so close quitting our buisness and now we have smart and kind staff members we have our own website and we own our many garages around the world.</p>
       </div>
       <div class="mb-sm-4">
         <h2 class="text-center mb-sm-4">Our office</h2>
